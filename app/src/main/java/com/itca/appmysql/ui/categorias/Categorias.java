@@ -242,9 +242,9 @@ public class Categorias extends Fragment {
             Map<String, String> map = new HashMap<>();
             map.put("Content-Type", "application/json; charset=utf-8");
             map.put("Accept", "application/json");
-            map.put("id_categoria", String.valueOf(id_categoria));
-            map.put("nom_categoria", nom_categoria);
-            map.put("estado_categoria", String.valueOf(estado_categoria));
+            map.put("id", String.valueOf(id_categoria));
+            map.put("nombre", nom_categoria);
+            map.put("estado", String.valueOf(estado_categoria));
             return map;
         }
         };
